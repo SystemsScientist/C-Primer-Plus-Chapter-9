@@ -14,15 +14,20 @@ void show_n_char(char, int); // function prototype
 int main(void) {
 
 	int spaces;
-
+	
+	/* code for name, where indentation is 12 spaces */
 	show_n_char('*', WIDTH); // using constants as arguments
 	putchar('\n');
 	show_n_char(SPACE, 12);  // using constants as arguments
 	printf("%s\n", NAME);
+	
+	/* code for address, where indentation is 11 spaces */
 	spaces = (WIDTH - strlen(ADDRESS)) / 2; // Let the program calculate 
 						// how many spaces to skip
 	show_n_char(SPACE, spaces); // use a variable as an argument
 	printf("%s\n", ADDRESS);
+	
+	/* code for place, where indentation is 10 spaces */
 	show_n_char(SPACE, (WIDTH - strlen(PLACE)) / 2); // use an expression as an argument
 
 	printf("%s\n", PLACE);
