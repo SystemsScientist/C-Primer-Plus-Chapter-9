@@ -23,7 +23,7 @@ Technical Notes and Considerations
 
 To compile and execute the Chapter 9 files,
 
-    (1) copy the code directly into your preferred
+    (1) copy the code and paste it directly into your preferred
         Integrated Development Environment (IDE), CLion, CodeLite,
         or Code::Blocks, for example, or your preferred text editor,
         Vim, Nano, or Emacs, for example
